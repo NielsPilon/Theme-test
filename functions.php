@@ -4,6 +4,7 @@
 function my_acf_init() {
 	
 	// check of functie bestaat
+	// nog en extra regel erbij 
 	if( function_exists('acf_register_block') ) {
 		
 		// register a testimonial block
