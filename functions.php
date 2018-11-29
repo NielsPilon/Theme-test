@@ -3,7 +3,7 @@
 	add_action('acf/init', 'my_acf_init');
 function my_acf_init() {
 	
-	// check function exists
+	// check of functie bestaat
 	if( function_exists('acf_register_block') ) {
 		
 		// register a testimonial block
